@@ -3,9 +3,10 @@
   "private": true,
   "version": "1.0.0",
   "description": "Backend API to communicate with MONGO DB",
-  "main": "server.ts",
+  "main": "server.js",
   "scripts": {
-    "start": "node server",
+    "start": "node dist/server.js",
+    "build": "npx tsc",
     "dev": "nodemon server"
   },
   "keywords": [],
